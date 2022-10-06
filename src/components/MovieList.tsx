@@ -1,11 +1,15 @@
-import React from 'react'
+import { Movie } from "../App";
 
-type Props = {}
-
-const MovieList = (props: Props) => {
+const MovieList = (props: { movies: Movie[] }) => {
   return (
-    <div>MovieList</div>
-  )
-}
+    <>
+      {props.movies.map((item) => (
+        <div key={item.Title}>
+          <img src={item.Poster} alt="Poster" />
+        </div>
+      ))}
+    </>
+  );
+};
 
-export default MovieList
+export default MovieList;

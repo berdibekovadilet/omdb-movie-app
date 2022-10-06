@@ -1,8 +1,17 @@
 import { useState } from "react";
 import "./App.css";
+import MovieList from "./components/MovieList";
+
+export interface Movie {
+  Title: string;
+  Year: string;
+  imdbID: string;
+  Type: string;
+  Poster: string;
+}
 
 function App() {
-  const [movies, setMovies] = useState([
+  const [movies, setMovies] = useState<Movie[]>([
     {
       Title: "Star Wars: Episode IV - A New Hope",
       Year: "1977",
@@ -84,7 +93,11 @@ function App() {
         "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg",
     },
   ]);
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <MovieList movies={movies} />
+    </div>
+  );
 }
 
 export default App;

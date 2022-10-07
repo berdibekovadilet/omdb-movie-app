@@ -3,11 +3,8 @@
 # Live https://mern-music-blog.netlify.app/
 
 
-Авторизация
-![Screen Banner](cover/1.jpg)
-
-Главная страница
-![Screen Banner](cover/2.jpg)
+![Screen Banner](covers/1.jpg)
+![Screen Banner](covers/2.jpg)
 
 # Getting Started with Create React App
 

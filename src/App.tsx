@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import MovieList from "./components/MovieList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import MovieHeadingList from "./components/MovieHeadingList";
+import SearchBox from "./components/SearchBox";
 
 export interface Movie {
   Title: string;
@@ -29,7 +31,11 @@ function App() {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row headerSection">
+        <MovieHeadingList>Movie</MovieHeadingList>
+        <SearchBox />
+      </div>
+      <div className="row slide">
         <MovieList movies={movies} />
       </div>
     </div>

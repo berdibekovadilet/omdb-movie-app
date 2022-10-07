@@ -3,9 +3,19 @@ body {
   color: white;
 }
 
-.row {
+.slide {
   overflow-x: auto;
   flex-wrap: nowrap;
+}
+
+.headerSection {
+  max-width: 720px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 24px 0;
 }
 
 .card {
@@ -13,6 +23,6 @@ body {
   height: auto;
   background: #141414;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin: 8px;
 }

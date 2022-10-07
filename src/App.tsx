@@ -1,11 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
 import MovieList from "./components/MovieList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import MovieHeadingList from "./components/MovieHeadingList";
 import SearchBox from "./components/SearchBox";
-import { log } from "console";
 
 export interface Movie {
   Title: string;

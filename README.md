@@ -1,3 +1,14 @@
+
+# Movie react app with OMDBApi
+# Live https://mern-music-blog.netlify.app/
+
+
+Авторизация
+![Screen Banner](cover/1.jpg)
+
+Главная страница
+![Screen Banner](cover/2.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,6 +1,6 @@
 
 # Movie react app with OMDBApi
-# Live https://mern-music-blog.netlify.app/
+# Live https://mellow-puffpuff-89e90a.netlify.app
 
 
 ![Screen Banner](covers/1.jpg)
